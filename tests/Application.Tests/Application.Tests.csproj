@@ -26,7 +26,6 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\..\src\corePackages\Core.Test\Core.Test.csproj" />
-	  <ProjectReference Include="..\..\src\generatedDemo\Persistence\Persistence.csproj" />
 	</ItemGroup>
 
 </Project>
