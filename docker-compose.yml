@@ -13,7 +13,7 @@ services:
     ports:
       - 80:80
 
-  s_contact_api:
+  s_category_api:
     container_name: c_category_api
     image: erhangocen/category
     build:
@@ -24,7 +24,7 @@ services:
     ports:
       - 9000:9000
 
-  s_res_api:
+  s_product_api:
     container_name: c_product_api
     image: erhangocen/product
     build:
